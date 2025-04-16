@@ -1,10 +1,8 @@
-// Import the Express library to create the router
 const express = require('express');
 
-// Import the register and login controller functions from the authController
 const { register, login } = require('../controllers/authController');
 
-// Create a new instance of an Express router
+
 const router = express.Router();
 
 // Define the /register POST route and associate it with the register function
